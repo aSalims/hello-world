@@ -9,3 +9,20 @@ Arwa Salim begining to learn git, gitHub and R in pursuit of becoming a data sci
 - now editing README.md
 - will try and push this to remote repo using "git push origin master"
   -- the above command seemed to work - git bash said 'everything up to date' but the updated readme did not show up on git hub!
+- git status:
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+- what needs to be done is first you have to git add the file you've made changes in, so "git add README.md"
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   README.md
